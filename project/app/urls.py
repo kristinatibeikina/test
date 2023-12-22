@@ -1,3 +1,3 @@
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admisfgn.site.urls),
 ]

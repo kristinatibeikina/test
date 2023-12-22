@@ -1,0 +1,9 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+
+<h3>{{product.name}}</h3>
+<p>{{product.description}}</p>
+<img src="{{ product.image.url }}" alt="Нету">
+
+{% endblock %}

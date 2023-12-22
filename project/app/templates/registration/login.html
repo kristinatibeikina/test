@@ -1,0 +1,11 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+
+<form class="font-weight-bold" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Авторизация" class="btn-dark">
+</form>
+
+{% endblock %}
